@@ -27,7 +27,7 @@ You will find two directories:
 
 If you want to try the interative feature of our simulation framework, check [this](GESTHOR-UNITY.md) document; if you only want to train the navigation agent with gestures, please `cd allenact` and follow steps below.
 
-You can download our dataset from [here](https://drive.google.com/file/d/1_LlxxAfeitGf4iIRbkmaPgj1YaEei1ss/view?usp=sharing). Unpack this package under `datasets` folder. The `ithor-objectnav-gesture` folder after unpacking contains:
+You can download our dataset from [here](https://drive.google.com/file/d/1ccUac_mGPUyYbIuYDHfrkLYcCEaJV7Up/view?usp=sharing). Unpack this package under `datasets` folder. The `ithor-objectnav-gesture` folder after unpacking contains:
 - `train`, `val`, `test` folder for 3 different stages
 - In each of the above folder, you will see 3 subfolders:
     - `episodes`: it contains episodic information for all scenes
@@ -50,9 +50,9 @@ projects/ithor_gesture/objectnav_ithor_rgbd_resnetgru_ddppo_gesture.py \
 -o storage/example_experiment \
 -s 12345 \ 
 --config_kwargs "{'recording_percentage':1.0, \
-                  'use_gesture':True }" \
-				  'add_intervention':False, \
-				  'room_type':'kitchen', \
+                  'use_gesture':True \
+		  'add_intervention':False, \
+		  'room_type':'kitchen'}"
 ```
 
 A few notes on the scripts:
@@ -74,9 +74,9 @@ projects/ithor_gesture/objectnav_ithor_rgbd_resnetgru_ddppo_gesture.py \
 -o storage/example_experiment \
 -s 12345 \ 
 --config_kwargs "{'recording_percentage':1.0, \
-                  'use_gesture':True }" \
-				  'add_intervention':False, \
-				  'room_type':'kitchen', \
+                  'use_gesture':True \
+		  'add_intervention':False, \
+		  'room_type':'kitchen'}" \
 -c storage/my_checkpoint.pt \
 --eval
 ```
