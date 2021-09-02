@@ -171,11 +171,15 @@ public class GestureReplay : MonoBehaviour
     {
         if(counterPlay==0)
         {
+             // Get inital position and rotation
+            poseHandler.GetHumanPose(ref poseToSet);
+            initialPos = poseToSet.bodyPosition;
+
             // Set the transform
-            humanMocapAnimator.transform.position = Vector3.zero;
+            // humanMocapAnimator.transform.position = Vector3.zero;
             // Local position
             Vector3 localPos = humanMocapAnimator.transform.InverseTransformPoint(initialPos);
-            poseToSet.bodyPosition = localPos;
+            poseToSet.bodyPosition = new Vector3(0f, initialPos.y, 0f);
         }
 
         poseToSet.bodyRotation = Quaternion.identity;
