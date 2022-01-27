@@ -1,5 +1,5 @@
 # Communicative Learning with Natural Gestures for Embodied Navigation Agents with Human-in-the-Scene
-By Qi Wu, Cheng-Ju (Jimmy) Wu, Yixin Zhu, and Jungseock Joo (To appear in IROS 2021)
+By Qi Wu, Cheng-Ju (Jimmy) Wu, Yixin Zhu, and Jungseock Joo (IROS 2021)
 
 [IROS 2021 Paper](https://arxiv.org/pdf/2108.02846.pdf) | [Website](https://sites.google.com/view/iros2021-gesthor/home) | [Video](https://youtu.be/UAqGMQchEEg) | [BibTex](#citing)
 
