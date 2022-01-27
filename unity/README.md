@@ -18,11 +18,11 @@ Before you try out our VR setup, make sure all devices function well on your PC 
 
 The following contents assumes that you have some basic knowledge of Unity. If you are new to it, this [official learning channel](https://learn.unity.com/) is a perfect start.
 
-![Unity Editor Interface](Figures/unity_editor.jpg)
+![Unity Editor Interface](Figures/unity_editor.JPG)
 
 This is the Unity Editor interface if you open this repository from Unity Hub. You can find (from left to right) the object hierarchy, object inspector, scene view, and game view.
 
-![Unity Editor Hierarchy](Figures/unity_hierarchy.jpg)
+![Unity Editor Hierarchy](Figures/unity_hierarchy.JPG)
 
 From the hierarchy window, we can find different GmaeObjects in the scene. The first few GameObjects are set up similar to AI2-THOR. `MocapModule` object is added for VR setup. In this module you can find the control rigs for Kinect, Leap Motion, and Oculus. You can find all the objects and scripts in this [folder](Assets/GestureMocap).
 
@@ -38,7 +38,7 @@ Here I show an example of gesture recording process. You can also check the info
 ![Experiment Setup](Figures/exp_setup.jpg)
 
 3. Hit `Play` in Unity Editor. When you hit play, you will be able to see the following screen. This is a pre-set program to record gestures. You can press `Space` or speak "start" to initiate the recording process. The recorded programs are used for the object navigation task. Therefore, you will see an object highlighted with red in each program. You need to speak an instruction to guide the robot to navigate to that object (e.g., if the target is an apple, you can say "go to that apple"). After your speech ends, show your referential gestures to the robot within 3 seconds. Your motion with 100 frames will be saved as a csv file with all joint coordinate information. Check this [file](Assets/GestureMocap/Scripts/MocapController.cs) for detailed implementation.
-![VR Screen](Figures/vr_screen.jpg)
+![VR Screen](Figures/vr_screen.JPG)
 
 4. You will notice that there are four parts saved: your voice of instruction as a `.wav` file, your first-person-view image as a `.jpg` file, your gestural motion as a `.csv` file, and a metadata `.json` file.
 
@@ -52,4 +52,4 @@ You can also replay a program with the `Gesture Replay` component. The interface
 - Train/Val/Test (optional): specify which folder you should check (only use if you put files in three folders sperately during recording).
 - Play Gesture from CSV File: hit if you are ready to replay a gesture. The robot and humanoid agents will be moved to specified locations defined in the meta file, and the robot will start displaying the written motions.
 
-![Gesture Replay](Figures/gesture_replay.jpg)
+![Gesture Replay](Figures/gesture_replay.JPG)
