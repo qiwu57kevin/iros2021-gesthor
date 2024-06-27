@@ -27,7 +27,7 @@ You will find two directories:
 
 If you want to try the interative feature of our simulation framework, check [this](GESTHOR-UNITY.md) document; if you only want to train the navigation agent with gestures, please `cd allenact` and follow steps below.
 
-You can download our dataset from [here](https://drive.google.com/file/d/1ccUac_mGPUyYbIuYDHfrkLYcCEaJV7Up/view?usp=sharing). Unpack this package under `datasets` folder. The `ithor-objectnav-gesture` folder after unpacking contains:
+You can download our dataset from [here](https://drive.google.com/drive/folders/1VUBbiztA7fledk1dxjnBULoeGsQJl21n?usp=drive_link). Unpack this package under `datasets` folder. The `ithor-objectnav-gesture` folder after unpacking contains:
 - `train`, `val`, `test` folder for 3 different stages
 - In each of the above folder, you will see 3 subfolders:
     - `episodes`: it contains episodic information for all scenes
