@@ -25,7 +25,7 @@ You will find two directories:
 - `unity`: this directory contains the Unity local build where the user can interact with the simulation environment.
 - `allenact`: this directory contains training scripts based on [AllenAct](https://github.com/allenai/allenact/). You could start training and evaluation without opening the Unity Editor.
 
-If you want to try the interative feature of our simulation framework, check [this](GESTHOR-UNITY.md) document; if you only want to train the navigation agent with gestures, please `cd allenact` and follow steps below.
+If you want to try the interative feature of our simulation framework, check [this](https://github.com/qiwu57kevin/iros2021-gesthor/blob/main/unity/README.md) document; if you only want to train the navigation agent with gestures, please `cd allenact` and follow steps below.
 
 You can download our dataset from [here](https://drive.google.com/drive/folders/1VUBbiztA7fledk1dxjnBULoeGsQJl21n?usp=drive_link). Unpack this package under `datasets` folder. The `ithor-objectnav-gesture` folder after unpacking contains:
 - `train`, `val`, `test` folder for 3 different stages
