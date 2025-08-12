@@ -84,4 +84,6 @@ projects/ithor_gesture/objectnav_ithor_rgbd_resnetgru_ddppo_gesture.py \
 Here, `-c` is to specify which checkpoint model to use, and `--eval` is to mark the process as evaluation--or lese, the training will resume from the checkpoint model and continue.
 
 ## Contact
-If you have any questions, feel free to reach out to me at qiwu57kevin@gmail.com
+If you have any questions, feel free to reach out to me:
+- Name: Qi Wu
+- Email: qiwu57kevin@gmail.com
